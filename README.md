@@ -180,4 +180,26 @@ This project is intended for **educational and institutional use**.
   Built & maintained by <b>Krishna Sharma</b><br>
   SUPER QUANT CODERS
 </p>
+<h1 align="center">SUPER QUANT CODERS</h1>
+
+<p align="center">
+  <b>Where Code Meets Capital</b><br>
+  An elite cyber-professional coding club
+</p>
+
+---
+
+
+---
+
+
+
+
+
+
+
+  © 2026 <b>SUPER QUANT CODERS</b><br>
+  Engineering Intelligence
+</p>
+
 
