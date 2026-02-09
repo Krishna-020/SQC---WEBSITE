@@ -1,0 +1,135 @@
+/* ========== ROOT THEMES ========== */
+body.charcoal {
+    --bg: #0b0f14;
+    --accent: #38bdf8;
+}
+
+body.midnight {
+    --bg: #020617;
+    --accent: #6366f1;
+}
+
+body.matrix {
+    --bg: #000a05;
+    --accent: #22c55e;
+}
+
+/* ========== BASE ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: var(--bg);
+    color: #e5e7eb;
+}
+
+/* ========== HEADER ========== */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+select {
+    background: transparent;
+    color: white;
+    border: 1px solid var(--accent);
+    padding: 5px;
+}
+
+/* ========== HERO ========== */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 8%;
+}
+
+.hero-text {
+    max-width: 520px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero h2 {
+    color: var(--accent);
+    margin: 15px 0;
+}
+
+.hero-image img {
+    width: 420px;
+    filter: drop-shadow(0 0 25px var(--accent));
+}
+
+/* ========== GLASS ========== */
+.glass {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 40px;
+    margin: 60px 8%;
+}
+
+/* ========== LAB ========== */
+.lab-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 0 8%;
+}
+
+.code-block {
+    background: #020617;
+    padding: 25px;
+    border-left: 4px solid var(--accent);
+    color: var(--accent);
+}
+
+.stats ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+/* ========== CTA ========== */
+.cta {
+    margin-top: 25px;
+    padding: 14px 34px;
+    background: transparent;
+    border: 2px solid var(--accent);
+    color: var(--accent);
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.cta:hover {
+    background: var(--accent);
+    color: black;
+    box-shadow: 0 0 20px var(--accent);
+}
+
+/* ========== FOOTER ========== */
+footer {
+    text-align: center;
+    padding: 20px;
+    opacity: 0.6;
+}
